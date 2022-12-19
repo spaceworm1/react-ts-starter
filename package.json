@@ -3,6 +3,10 @@
     "version": "1.0.3",
     "type": "module",
     "bin": "./bin/cli.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/spaceworm1/react-ts-starter.git"
+    },
     "dependencies": {
         "@reduxjs/toolkit": "^1.9.1",
         "@testing-library/jest-dom": "^5.16.5",
