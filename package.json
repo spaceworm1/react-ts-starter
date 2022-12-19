@@ -1,5 +1,5 @@
 {
-    "name": "@spaceworm/create-react-ts-starter",
+    "name": "@spaceworm/react-ts-template",
     "version": "1.0.0",
     "type": "module",
     "bin": "./bin/cli.js",

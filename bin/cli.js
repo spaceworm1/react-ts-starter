@@ -16,7 +16,7 @@ const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/ikverenc/react-ts-starter.git ${repoName}`;
 const iDeps = `cd ${repoName} && npm i`;
 
-console.log(`Cloning the repository with name ${repoName}`);
+console.log(`Cloning repository with name react-ts-starter.git`);
 const checkedOut = runCommand(gitCheckoutCommand);
 if (!checkedOut) process.exit(-1);
 
@@ -28,3 +28,4 @@ console.log(`\nCongratulations! Followe the following commands to start`);
 console.log(`\ncd ${repoName}`);
 console.log(`npm start`);
 console.log('\n\nHappy Hacking!');
+process.exit(-1);
