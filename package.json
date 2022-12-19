@@ -1,6 +1,7 @@
 {
     "name": "@spaceworm/create-react-ts-starter",
     "version": "1.0.0",
+    "type": "module",
     "bin": "./bin/cli.js",
     "dependencies": {
         "@reduxjs/toolkit": "^1.9.1",
