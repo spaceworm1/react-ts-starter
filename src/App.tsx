@@ -1,3 +1,15 @@
-export default function App() {
-    return <h1>React App Template By Space</h1>;
+import { Provider } from 'react-redux';
+
+import store from './store/store';
+
+import Router from './ROUTER';
+
+function App() {
+    return (
+        <Provider store={store}>
+            <Router />
+        </Provider>
+    );
 }
+
+export default App;

@@ -1,0 +1,36 @@
+.nav {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    color: white;
+
+    .links {
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+
+        li {
+            padding: 1rem;
+            border-bottom: 2px solid transparent;
+            transition: all .3s ease;
+
+            &:hover {
+                border-bottom: 2px solid rgb(79,69,228);
+            }
+
+            a{
+                color: inherit;
+            }
+        }
+    }
+
+    .interaction{
+        margin-right: 2rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+}

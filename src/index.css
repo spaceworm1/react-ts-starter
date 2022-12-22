@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,16 +10,14 @@
     margin: 0;
     padding: 0;
     font: inherit;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 body {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    font-size: 2rem;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(25, 25, 25);
+    font-family: 'Roboto', sans-serif;
 }
 
 img,

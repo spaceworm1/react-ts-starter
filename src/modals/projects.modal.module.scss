@@ -1,0 +1,29 @@
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem;
+    border-radius: 10px;
+    background-color: rgb(22, 22, 22);
+    border-color: 1px solid gray;
+    label {
+        color: white;
+    }
+}
+
+.overLay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(16, 15, 15, 0.7);
+    z-index: 1000;
+}
