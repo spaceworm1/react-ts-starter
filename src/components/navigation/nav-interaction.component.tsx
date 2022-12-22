@@ -13,7 +13,7 @@ export default function NavInteraction() {
 
     return (
         <div className={styles.interaction}>
-            <Button variant="submit" textContent="New Movie" onClickHandler={onClickHandler} />
+            <Button variant="submit" textContent="Add Project" onClickHandler={onClickHandler} />
             <Projectsmodal open={op} onCloseHandler={onCloseHandler} />
         </div>
     );
